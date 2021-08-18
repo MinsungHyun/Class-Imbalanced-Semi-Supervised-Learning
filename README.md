@@ -1,31 +1,16 @@
-# Class-Imbalanced Semi-Supervised Learning
-* Code For Object Detection
-* We referred to the following paper and code.
-* [CSD: Consistency-based Semi-supervised learning for object Detection](https://github.com/soo89/CSD-SSD)
+# Class-Imbalanced Semi-Supervised Learning (ICLR RobustML Workshop 2021)
+By [Minsung Hyun](https://scholar.google.com/citations?user=MpsUp10AAAAJ&hl=ko&oi=ao), [Jisoo Jeong](http://mipal.snu.ac.kr/index.php/Jisoo_Jeong) and [Nojun Kwak](http://mipal.snu.ac.kr/index.php/Nojun_Kwak)
 
-## Installation & Preparation
-We experimented Suppressed Consistency Loss (SCL) on CSD using the SSD pytorch framework. To use our model, complete the installation & preparation on the [SSD pytorch homepage](https://github.com/amdegroot/ssd.pytorch)
+For more details, please refer to our [arXiv paper](https://arxiv.org/abs/2002.06815)
 
-#### prerequisites
-- Python 3.6+
-- Pytorch 1.1.0
 
-## Supervised learning
-```
-python train_ssd.py
-```
+## Code
 
-## CSD training
-```
-python train_csd.py
-```
+* Classification: ./CISSL_cls ([Link](./CISSL_cls))
 
-## CSD with SCL training
-```
-python train_csd_scl.py
-```
+* Object Detection: ./CISSL_det ([Link](./CISSL_det))
 
-## Evaluation
-```
-python eval.py
-```
+## Code Reference
+https://github.com/perrying/realistic-ssl-evaluation-pytorch
+
+
